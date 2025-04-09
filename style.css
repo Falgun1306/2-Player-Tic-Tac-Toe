@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(29, 69, 55);
+    font-family: 'Poppins',sans-serif;
+    margin-top: -25px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    min-height: 90vh;
+}
+
+.heading{
+  text-align: center;  
+  margin-right: 12px;
+  font-size: 2rem;
+}
+
+.row{
+    display: flex;
+    
+}
+.col{
+    height: 150px;
+    width: 150px;
+    border-bottom: 5px solid rgb(61, 86, 78);
+    background-color: rgb(61, 86, 78);
+    box-shadow: 0  10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:6rem;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.logo-o{
+  color:rgb(6, 235, 239);
+}
+
+.logo-x{
+    color: rgb(246, 181, 19);
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+.control .logo{
+    font-size: 3rem;
+}
+
+.control .turn{
+    color: rgb(229, 244, 247);
+    background-color: rgb(61, 86, 78);
+    padding: 15px;
+    border-radius: 15%;
+    font-size: 1.5rem;
+}
+
+.reset{
+    font-size: 2rem;
+    padding: 7px;
+    cursor: pointer;
+    width: 13%;
+    color: rgb(5, 47, 47);
+    background-color: rgb(229, 244, 247);
+    border-radius: 5px;
+    border: 2px solid rgb(113, 118, 119) ;
+    border-bottom: 5px solid rgb(104, 132, 137);
+    transition: transform 0.2s;
+    box-shadow: rgb(113, 118, 119);
+}
+
+.reset:active{
+    transform: translateY(5px);
+    box-shadow: 0 1px rgb(113, 118, 119); 
+}
+
+.result{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 2rem;
+}
+
+.p-1,.p-2,.tie{
+    background-color:rgb(6, 235, 239);
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.p-2{
+    background-color:rgb(246, 181, 19) ;
+}
+
+.tie{
+    background-color: rgb(229, 244, 247);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.p-1-points,.p-2-points,.tie-points{
+    font-weight: bold;
+}
+

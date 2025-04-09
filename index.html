@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/2-Player-Tic-Tac-Toe/style.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="title">
+            <div class="grid">
+                <div class="control">
+                    <h1 class="logo"><span class="logo-x">X </span><span class="logo-o">O</span></h1>
+                    <h2 class="turn"><span class="turn-p">O </span> TURN</h2>
+                    <button class="reset"><i class="fa-solid fa-rotate-right"></i></button>
+                </div>
+                <div class="row">
+                    <div id="0" class="col"></div>
+                    <div id="1" class="col"></div>
+                    <div id="2" class="col"></div>
+                </div>
+                <div class="row">
+                    <div id="3" class="col"></div>
+                    <div id="4" class="col"></div>
+                    <div id="5" class="col"></div>
+                </div>
+                <div class="row">
+                    <div id="6" class="col"></div>
+                    <div id="7" class="col"></div>
+                    <div id="8" class="col"></div>
+                </div>
+                <div class="result">
+                    <p class="p-1">O(P-1)<br><span class="p-1-points">0</span></p>
+                    <p class="tie">TIES<br><span class="tie-points">0</span></p>
+                    <p class="p-2">X(P-2)<br><span class="p-2-points">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/2-Player-Tic-Tac-Toe/script.js"></script>
+</body>
+</html>
